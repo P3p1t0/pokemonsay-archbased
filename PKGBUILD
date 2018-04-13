@@ -1,7 +1,7 @@
 # Maintainer: P3p1t0 (https://github.com/P3p1t0/pokemonsay-archbased)
 # Feel free to maintain pokemonsay-package on AUR if you want
 
-pkgname=pokemonsay-package
+pkgname=pokemonsay-archbased
 pkgver=00000000
 pkgrel=1
 pkgdesc='Cowsay, but with Pokemons'
