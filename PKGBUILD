@@ -16,7 +16,7 @@ sha512sums=('366757660fc17e93bf5d2a7f8045d6bfaae9cb1cdac323cb34d033ad3a60ae529eb
 
 package() {
 
-	cp -dr --no-preserve=ownership "${srcdir}"/$pkgname-packagefriendly/{opt,usr} "${pkgdir}"/
+	cp -dr --no-preserve=ownership "${srcdir}"/pokemonsay-packagefriendly/{opt,usr} "${pkgdir}"/
     install -Dm644 "${srcdir}"/pokemonsay-packagefriendly/LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 
 }
