@@ -2,7 +2,7 @@
 # Feel free to maintain pokemonsay-package on AUR if you want
 
 pkgname=pokemonsay-archbased
-pkgver=00000000
+pkgver=20171228
 pkgrel=1
 pkgdesc='Cowsay, but with Pokemons'
 arch=('any')
@@ -11,8 +11,8 @@ license=('MIT')
 options=('!strip')
 depends=('cowsay')
 optdepends=('cowfortune: For fortune cookies')
-source=("https://github.com/P3p1t0/pokemonsay-packagefriendly/releases/download/00000000/pokemonsay-packagefriendly-$pkgver.zip")
-sha512sums=('366757660fc17e93bf5d2a7f8045d6bfaae9cb1cdac323cb34d033ad3a60ae529ebaa037201b9a9c1240761ca7d0e863a5fc1031f67771947dfe0fe4058fe700')
+source=("https://github.com/P3p1t0/pokemonsay-packagefriendly/releases/download/$pkgver/pokemonsay-packagefriendly-$pkgver.zip")
+sha512sums=('f22bf991cb155470ca1433605e61478e355e8bc509bf3644509f8864883a532f0ce8db705ebb78430192dddb18dfdee426202efb2ca08af82ebe6ec1e6cfa8b2')
 
 package() {
 
